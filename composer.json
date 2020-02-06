@@ -1,0 +1,11 @@
+{
+    "name": "trainning/ecom",
+    "description": "Trainning Ecom MVC",
+    "authors": [
+        {
+            "name": "evertonmelquiades",
+            "email": "melquiades.everton@gmail.com"
+        }
+    ],
+    "require": {}
+}
