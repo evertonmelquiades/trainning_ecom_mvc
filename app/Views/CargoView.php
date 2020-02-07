@@ -26,7 +26,7 @@ namespace Views{
  
             $linhas = '';
             foreach ($cargos as $cargo) {
-                $linhas .= sprintf($templateLinha, $cargo->getId(), $cargo->getNome());
+                $linhas .= sprintf($templateLinha, $cargo->getId(), strtoupper($cargo->getNome()));
             }
  
             $resultado = sprintf($templateTabela, $linhas);
